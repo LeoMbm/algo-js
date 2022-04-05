@@ -1,8 +1,7 @@
-var name = "Gerard"
+var ask = prompt("Enter your age");
 
-var firstName = "Lambert"
-
-var city = "Paris"
-
-
-console.log("Your name is " + name + " " + firstName + " and you live in " + city)
+if (ask >= 18) {
+  alert("You are an adult");
+} else {
+  alert("You are not yet an adult");
+}
