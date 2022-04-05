@@ -1,7 +1,12 @@
-var ask = prompt("Enter your age");
+var min = prompt("Enter a minimal number");
 
-if (ask >= 18) {
-  alert("You are an adult");
+var max = prompt("Enter a maximal number");
+
+var cur = prompt("Enter a current number");
+
+if (cur >= min && cur <= max) {
+  alert("The number is between" + " " + min + " " + "and" + " " + max);
 } else {
-  alert("You are not yet an adult");
+  alert(
+    "Please don't be dumb enter a number between" + " " + min + " " + "and" + " " + max);
 }
