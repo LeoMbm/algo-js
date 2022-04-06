@@ -1,10 +1,10 @@
-var min = prompt("Enter a minimal number");
+let min = Number (prompt("Enter a minimal number"));
 
-var max = prompt("Enter a maximal number");
+let max =Number(prompt("Enter a maximal number"));
 
-var cur = prompt("Enter a current number");
+let  cur = Number (prompt("Enter a current number"));
 
-if (cur >= min && cur <= max) {
+if ((cur >= min) && (cur <= max)) {
   alert("The number is between" + " " + min + " " + "and" + " " + max);
 } else {
   alert(
