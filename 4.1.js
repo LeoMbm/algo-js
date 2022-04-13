@@ -1,3 +1,13 @@
+/**
+ * @param  {} {varlength=prompt("Enterawholenumberforthelengthofyourrectangle."
+ * @param  {} ;varwidth=prompt("Enterawholenumberforthewidthofyourrectangle."
+ * @param  {} ;vardepth=prompt("Enterawholenumberforthedepthofyourrectangleprism"
+ * @param  {} ;varperimeter=(2*length
+ * @param  {} +(2*width
+ * @param  {} ;vararea=length*width;varvolume=length*width*depth;document.getElementById("a"
+ * @param  {"+area;document.getElementById("b"} .innerHTML="Areaofrectangle
+ * @returns volume
+ */
 function surface() {
   
     var length = prompt("Enter a whole number for the length of your rectangle.");
