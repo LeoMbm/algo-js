@@ -1,0 +1,47 @@
+body{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.computer{
+  
+    text-align: center;
+    background-color: rgb(66, 172, 243);
+    width: 300px;
+    height: 500px;
+    border-radius: 3px;
+    border: 2px solid #000;
+}
+
+.screen{
+    margin:auto;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 280px;
+    height: 150px;
+    position: relative;
+    top: 10px;
+
+}
+
+.result{
+    text-align: center;
+    margin:auto;
+    background-color: rgb(87, 30, 30);
+    width: 280px;
+    height: 318px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.result button{
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin-top: 40px;
+}
