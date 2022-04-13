@@ -1,12 +1,5 @@
-function rand10(max){
-    return Math.floor(Math.random() * max)
-
+function rand10() {
+    return Math.floor(Math.random() * 10 + 1);
 }
 
-
-console.log(rand10(10));
-
-
-console.log(rand10(10));
-
-console.log(Math.random());
+console.log(rand10())
