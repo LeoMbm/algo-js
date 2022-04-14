@@ -14,4 +14,4 @@ function multiRand(n) {
 
    
 
-console.log(multiRand(10))
+console.log(multiRand(10));
