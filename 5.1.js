@@ -7,10 +7,15 @@ function askTvSeries(){
     while (ask4 !== 'End'){
         ask4 = prompt('Cast Members');
         ask3.push(ask4);
+        
+        if(ask4 === 'End'){
 
+            ask3.pop();
+
+        }
     }
     
-    let obj2 = {
+    let object = {
 
         Name : ask1,
 
@@ -20,8 +25,6 @@ function askTvSeries(){
 
     }
 
-    return obj2;
+    return object;
 }
-
-
 console.log(askTvSeries())
